@@ -1,28 +1,5 @@
 ﻿#include <iostream>
-
-
 using namespace std;
-// Сортировка методом выбора (сортируем по наименьшему значению)
-      /* for (int index = 0; index < numberLenght; ++index)
-              {
-                  int smallestNumber = index;
-                  for (int nextIndex = index + 1; nextIndex < numberLenght; ++nextIndex)
-                  {
-                      if (arr[nextIndex] < arr[smallestNumber])
-                      {
-                          smallestNumber = nextIndex;
-                      }
-                  }
-                  swap(arr[index], arr[smallestNumber]);
-              }
-              */
-
-              /* for (int j = 0; j < numberLenght; ++j)
-              {
-                  cout << arr[j];
-              }
-              */
-
 
 int getRandomNumber(int min, int max)
 {
